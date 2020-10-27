@@ -1,0 +1,8 @@
+server.port: 9000
+
+# Disable Spring Boot ASCII-Art Banner
+spring.main.banner-mode: off
+
+# Set Health Check Endpoint to /health
+management.endpoints.web.base-path: /
+management.endpoints.web.path-mapping.health: health
